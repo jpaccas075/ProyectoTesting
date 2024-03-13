@@ -1,13 +1,13 @@
-package pruebas;
+package clasesAProbar;
 
-public class Persona {
+public class Tomas {
 	private String nombre;
 	private String apellidos;
 	private int edad;
 	private char sexo;
 	private boolean discapacidad;
 	
-	public Persona(String nombre, String apellidos, int edad, char sexo, boolean discapacidad) {
+	public Tomas(String nombre, String apellidos, int edad, char sexo, boolean discapacidad) {
 		if(comprobarNombre(nombre) && comprobarApellidos(apellidos) && comprobarEdad(edad) && comprobarSexo(sexo)) {
 			this.nombre = nombre;
 			this.apellidos = apellidos;
